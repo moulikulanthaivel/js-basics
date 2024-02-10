@@ -1,0 +1,46 @@
+<html>
+
+
+<head>
+<title>own try js buttons</title>
+
+
+</head>
+<body>
+
+    <button onclick="console.log(`cart Quantity : ${cartQuantity}`)">
+         Quantity check</button>
+
+
+    <button ondblclick="cartQuantity++; 
+    console.log(`Add to cart : ${cartQuantity}`)">
+        Add to cart</button>
+
+
+    <button onclick="cartQuantity = 0;
+    console.log(`cancel your cart`)
+    console.log(`cartQuantity : ${cartQuantity}`)"> 
+    cancel</button>
+
+
+    <button onclick="cartQuantity+=2 
+    console.log(`add 2 : ${cartQuantity}`)">+2</button>
+
+
+    <button onclick="cartQuantity+=3
+    console.log(`add 3 : ${cartQuantity}`)">+3</button>
+
+    
+    <button onclick="cartQuantity = cartQuantity-5;
+    console.log(`less 5 Quantity : ${cartQuantity}`)">-5</button>
+
+
+    <script>
+
+     let cartQuantity = 0;
+
+    </script>
+
+
+</body>
+</html>
